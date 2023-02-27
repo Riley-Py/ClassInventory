@@ -26,21 +26,39 @@ namespace ClassInventory
             string player, team, position;
 
             int age;
+            try {
+                player = nameInput.Text;
+                age = Convert.ToInt16(ageInput.Text);
+                team = teamInput.Text;
+                position = positionInput.Text;
 
-            player = nameInput.Text;
-            age = Convert.ToInt16(ageInput.Text);
-            team = teamInput.Text;
-            position = positionInput.Text;
+                Player player1 = new Player(player, team, position, age);
+                playerList.Add(player1);
 
-            Player player1 = new Player(player, team, position, age);
-            playerList.Add(player1);
+                addButton.Text = $"{player1.name} has been added";
 
-            outputLabel.Text = $"{player} has been added";
+                clearScreen();
+            }
+            catch (FormatException)
+            {
+                addButton.Text = "Invalid input.  Please try again";
+                clearScreen();
+            }
+
+           
 
         }
 
         private void removeButton_Click(object sender, EventArgs e)
         {
+            int index = playerList.FindIndex(x => x.name == removeInput.Text);
+
+            if (index >= 0)
+            {
+                outputLabel.Text = $"{playerList[index].name} has been removed";
+                playerList.RemoveAt(index);
+
+            }
 
         }
 
@@ -64,6 +82,13 @@ namespace ClassInventory
             {
                 outputLabel.Text += $" Player: {player.name},\n age: {player.age},\n team: {player.team},\n position: {player.position}\n\n";
             }
+        }
+        public void clearScreen()
+        {
+            nameInput.Text = "";
+            ageInput.Text = "";
+            teamInput.Text = "";
+            positionInput.Text = "";
         }
     }
 }

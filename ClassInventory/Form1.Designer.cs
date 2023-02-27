@@ -69,9 +69,9 @@
             this.addBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addBox.ForeColor = System.Drawing.Color.White;
             this.addBox.Location = new System.Drawing.Point(43, 85);
-            this.addBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addBox.Margin = new System.Windows.Forms.Padding(4);
             this.addBox.Name = "addBox";
-            this.addBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addBox.Padding = new System.Windows.Forms.Padding(4);
             this.addBox.Size = new System.Drawing.Size(277, 270);
             this.addBox.TabIndex = 0;
             this.addBox.TabStop = false;
@@ -80,10 +80,10 @@
             // addButton
             // 
             this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addButton.Location = new System.Drawing.Point(159, 208);
-            this.addButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addButton.Location = new System.Drawing.Point(38, 198);
+            this.addButton.Margin = new System.Windows.Forms.Padding(4);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(100, 46);
+            this.addButton.Size = new System.Drawing.Size(210, 46);
             this.addButton.TabIndex = 8;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             // positionInput
             // 
             this.positionInput.Location = new System.Drawing.Point(97, 164);
-            this.positionInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.positionInput.Margin = new System.Windows.Forms.Padding(4);
             this.positionInput.Name = "positionInput";
             this.positionInput.Size = new System.Drawing.Size(160, 26);
             this.positionInput.TabIndex = 7;
@@ -100,7 +100,7 @@
             // teamInput
             // 
             this.teamInput.Location = new System.Drawing.Point(97, 121);
-            this.teamInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.teamInput.Margin = new System.Windows.Forms.Padding(4);
             this.teamInput.Name = "teamInput";
             this.teamInput.Size = new System.Drawing.Size(160, 26);
             this.teamInput.TabIndex = 6;
@@ -108,7 +108,7 @@
             // ageInput
             // 
             this.ageInput.Location = new System.Drawing.Point(97, 80);
-            this.ageInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ageInput.Margin = new System.Windows.Forms.Padding(4);
             this.ageInput.Name = "ageInput";
             this.ageInput.Size = new System.Drawing.Size(47, 26);
             this.ageInput.TabIndex = 5;
@@ -116,7 +116,7 @@
             // nameInput
             // 
             this.nameInput.Location = new System.Drawing.Point(97, 41);
-            this.nameInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameInput.Margin = new System.Windows.Forms.Padding(4);
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(160, 26);
             this.nameInput.TabIndex = 4;
@@ -186,9 +186,9 @@
             this.removeBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.removeBox.ForeColor = System.Drawing.Color.White;
             this.removeBox.Location = new System.Drawing.Point(43, 379);
-            this.removeBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.removeBox.Margin = new System.Windows.Forms.Padding(4);
             this.removeBox.Name = "removeBox";
-            this.removeBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.removeBox.Padding = new System.Windows.Forms.Padding(4);
             this.removeBox.Size = new System.Drawing.Size(277, 148);
             this.removeBox.TabIndex = 2;
             this.removeBox.TabStop = false;
@@ -198,7 +198,7 @@
             // 
             this.removeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.removeButton.Location = new System.Drawing.Point(159, 80);
-            this.removeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.removeButton.Margin = new System.Windows.Forms.Padding(4);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(100, 46);
             this.removeButton.TabIndex = 8;
@@ -209,7 +209,7 @@
             // removeInput
             // 
             this.removeInput.Location = new System.Drawing.Point(97, 41);
-            this.removeInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.removeInput.Margin = new System.Windows.Forms.Padding(4);
             this.removeInput.Name = "removeInput";
             this.removeInput.Size = new System.Drawing.Size(160, 26);
             this.removeInput.TabIndex = 4;
@@ -235,9 +235,9 @@
             this.displayBox.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayBox.ForeColor = System.Drawing.Color.White;
             this.displayBox.Location = new System.Drawing.Point(359, 85);
-            this.displayBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.displayBox.Margin = new System.Windows.Forms.Padding(4);
             this.displayBox.Name = "displayBox";
-            this.displayBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.displayBox.Padding = new System.Windows.Forms.Padding(4);
             this.displayBox.Size = new System.Drawing.Size(385, 442);
             this.displayBox.TabIndex = 3;
             this.displayBox.TabStop = false;
@@ -258,7 +258,7 @@
             // 
             this.showButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showButton.Location = new System.Drawing.Point(267, 80);
-            this.showButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showButton.Margin = new System.Windows.Forms.Padding(4);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(100, 27);
             this.showButton.TabIndex = 9;
@@ -270,7 +270,7 @@
             // 
             this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchButton.Location = new System.Drawing.Point(267, 41);
-            this.searchButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchButton.Margin = new System.Windows.Forms.Padding(4);
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(100, 27);
             this.searchButton.TabIndex = 8;
@@ -281,7 +281,7 @@
             // nameSearchInput
             // 
             this.nameSearchInput.Location = new System.Drawing.Point(97, 41);
-            this.nameSearchInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nameSearchInput.Margin = new System.Windows.Forms.Padding(4);
             this.nameSearchInput.Name = "nameSearchInput";
             this.nameSearchInput.Size = new System.Drawing.Size(160, 26);
             this.nameSearchInput.TabIndex = 4;
@@ -308,7 +308,7 @@
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.addBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Class Inventory";
             this.addBox.ResumeLayout(false);
